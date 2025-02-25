@@ -10,6 +10,7 @@ class mergeTwoSortedArray {
         Arrays.sort(nums1);
     }
 
+
     public static void main(String[] args) {
         mergeTwoSortedArray obj = new mergeTwoSortedArray();
         int[] nums1 = {1,2,3,0,0,0};
@@ -19,6 +20,7 @@ class mergeTwoSortedArray {
             System.out.print(i + ",");
         }
     }
+
 }
 
 
