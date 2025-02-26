@@ -5,7 +5,7 @@ public class P121MaxProfit {
         //return profit
         //however, buying has to be before selling.
 
-        if (prices.length == 0) {
+        if (prices.length <= 1) {
             return 0;
         }
 
